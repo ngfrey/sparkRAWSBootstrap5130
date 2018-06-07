@@ -98,9 +98,10 @@ done
 
 
 sudo yum install -y xorg-x11-xauth.x86_64 xorg-x11-server-utils.x86_64 xterm libXt libX11-devel libXt-devel libcurl-devel git
+sudo yum install R-core R-base R-core-devel R-devel -y
 
-git config --global user.name "ngfrey"
-git config --global user.email "nathangfrey@gmail.com"
+git config --global user.name "userNameHere"
+git config --global user.email "userEmailHere@someplace.com"
 
 export MAKE='make -j 8'
 
